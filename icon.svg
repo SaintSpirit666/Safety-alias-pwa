@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Безопасный ALIAS">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="30" x2="430" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#176bd1"/>
+      <stop offset="1" stop-color="#04142e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="180" y1="130" x2="335" y2="365" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe45c"/>
+      <stop offset="1" stop-color="#ffb925"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <path d="M256 67 407 121v120c0 99-60 169-151 207-91-38-151-108-151-207V121L256 67Z" fill="#0d2c59" stroke="#79b8ff" stroke-width="13"/>
+  <circle cx="256" cy="260" r="88" fill="#f5f9ff"/>
+  <path d="M173 248c2-67 34-111 83-111s81 44 83 111H173Z" fill="url(#gold)"/>
+  <path d="M156 246h200c10 0 18 8 18 18s-8 18-18 18H156c-10 0-18-8-18-18s8-18 18-18Z" fill="#ffd13c"/>
+  <path d="M242 139h28v106h-28z" fill="#ffbd27"/>
+  <path d="M213 301c12 12 27 18 43 18s31-6 43-18" fill="none" stroke="#176bd1" stroke-linecap="round" stroke-width="14"/>
+  <circle cx="222" cy="275" r="8" fill="#092754"/>
+  <circle cx="290" cy="275" r="8" fill="#092754"/>
+  <path d="M188 366h136" stroke="#ffd13c" stroke-linecap="round" stroke-width="22"/>
+</svg>

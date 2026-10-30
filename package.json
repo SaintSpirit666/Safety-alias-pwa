@@ -1,0 +1,17 @@
+{
+  "name": "safety-alias-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Командная PWA-игра по безопасности",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "content:import": "node scripts/import-cards.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test tests/static.test.mjs tests/events.test.mjs && node scripts/run-browser-tests.mjs",
+    "test:static": "node --test tests/static.test.mjs tests/events.test.mjs",
+    "test:browser": "node scripts/run-browser-tests.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
